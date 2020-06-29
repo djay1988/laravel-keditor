@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('pages', 'EditorController@index')->name('editor');
+Route::get('pages/new', 'EditorController@create')->name('editor.new');
