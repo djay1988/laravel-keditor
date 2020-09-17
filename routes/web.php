@@ -19,3 +19,4 @@ Route::get('/', function () {
 
 Route::get('pages', 'EditorController@index')->name('editor');
 Route::get('pages/new', 'EditorController@create')->name('editor.new');
+Route::get('pages/preview', 'EditorController@show')->name('editor.show');
