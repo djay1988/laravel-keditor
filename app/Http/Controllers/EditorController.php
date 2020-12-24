@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class EditorController extends Controller
 {
@@ -80,5 +81,33 @@ class EditorController extends Controller
     public function destroy($id)
     {
         //
+    }
+    public function upload(Request  $request)
+    {
+        $validator = Validator::make($request->all(), [
+            'image-file' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
+        ]);
+
+        if ($validator->passes()) {
+
+            $year = date("Y");
+            $month = date("m");
+            $input = $request->all();
+
+            $_folder = isset($input['folder']) ? $input['folder'] : 'images';
+            $folder = $_folder . '/' . $year . '/' . $month . '/';
+
+            $name = md5(time()) . '.' . $request->{'image-file'}->getClientOriginalExtension();
+            $uploadedFile = $request->{'image-file'};
+            $uploadedFile->storeAs($folder, $name, 'public');
+
+
+            $image = 'storage/' . $folder . $name;
+            $url = url($image);
+
+
+            return response()->json(['type' => 'OK', 'file' => $image, 'url' => $url]);
+        }
+        return response()->json(['type' => 'ERR', 'error' => $validator->errors()->all()]);
     }
 }

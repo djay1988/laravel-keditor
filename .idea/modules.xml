@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../chatbot/.idea/chatbot.iml" filepath="$PROJECT_DIR$/../chatbot/.idea/chatbot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../codeigniter-restserver/.idea/codeigniter-restserver.iml" filepath="$PROJECT_DIR$/../codeigniter-restserver/.idea/codeigniter-restserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../img_comp/.idea/img_comp.iml" filepath="$PROJECT_DIR$/../img_comp/.idea/img_comp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../instructor.lk/.idea/instructor.lk.iml" filepath="$PROJECT_DIR$/../instructor.lk/.idea/instructor.lk.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/laravel-keditor.iml" filepath="$PROJECT_DIR$/.idea/laravel-keditor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../lms/.idea/lms.iml" filepath="$PROJECT_DIR$/../lms/.idea/lms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../payhere-demo-beta/.idea/payhere-demo-beta.iml" filepath="$PROJECT_DIR$/../payhere-demo-beta/.idea/payhere-demo-beta.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pos_installment/.idea/pos_installment.iml" filepath="$PROJECT_DIR$/../pos_installment/.idea/pos_installment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../wordpress/.idea/wordpress.iml" filepath="$PROJECT_DIR$/../wordpress/.idea/wordpress.iml" />
     </modules>
   </component>
 </project>

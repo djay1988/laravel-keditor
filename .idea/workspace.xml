@@ -2,26 +2,424 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="08d7d5a3-98bf-4b71-b881-e8b9ddec457f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/plugins/editor-2.0.1/snippets/panel-config.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/pages/preview.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/AdminAuthController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/CompanyController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Landing/LandingPageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/CategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/CourseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/ExamController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/GalleryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/GradeController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/LandingPageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/PageController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/QuestionPaperController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/QuestionsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/SettingsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/SiteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/SubCategoryController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/TeacherController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/UserController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Middleware/Subdomain.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Requests/CompanyRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Mail/Admin/InstructorRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Mail/Instructor/CompanyActivated.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Mail/Instructor/InstructorRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Models/Company.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/app/Models/Option.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2014_10_12_000001_create_companies_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_08_20_003226_create_options_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_10_14_202304_company_bank_info.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/instructor.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/images/home/hero-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/images/home/hero-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/images/home/hero-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/img/checkmark-done-sharp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/img/instructor-lap-mockup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/img/instructor.lk-logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/img/instructor.lk-logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/img/instructor.lk-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/img/pattern-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/landingpage/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/scss/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/scss/theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/scss/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/vendor/icon-chooser/css/fontawesome-iconpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/vendor/icon-chooser/css/fontawesome-iconpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/vendor/icon-chooser/js/fontawesome-iconpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/vendor/icon-chooser/js/fontawesome-iconpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/sass/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/auth/login.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/auth/register.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/company/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/company/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/company/new.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/landing/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/landing/privacy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/components/instructor-dash-menu.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/dashboard.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/mail/admin/company-request.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/mail/instructor/activated.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/mail/instructor/company-request.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/notfound.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/category/category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/courses/lessons.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/exam-results/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/exam-results/review.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/exams/new.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/gallery/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/gallery/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/gallery/new.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/grades/grades.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/lessons/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/lessons/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/lessons/new.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/notification.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/pages/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/pages/help.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/pages/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/pages/privacy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/payments/bank_info.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/payments/subscription_charges.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/profile/teacher_nav.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/qpaper/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/qpaper/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/qpaper/new.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/qpaper/questions.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/questions/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/questions/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/questions/new.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/settings/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/settings/home-page.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/settings/nav.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/settings/theme.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/site-info/logo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/site-info/nav.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/site-info/siteinfo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/site-info/social.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/styles.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/teachers/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/teachers/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/teachers/new.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/users/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/users/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/users/view.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/routes/admin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/routes/instructor.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../instructor.lk/update-landing.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/plugins/editor-2.0.1/js/keditor-photo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/app/Http/Controllers/Teacher/SettingsController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/app/Models/Option.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/database/migrations/2020_08_20_003226_create_options_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/bootstrap/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/css/all.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/css/responsive.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/img/checkmark-done-sharp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/img/fav-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/img/icon-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/img/instructor-lap-mockup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/img/instructor.lk-logo-dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/img/instructor.lk-logo-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/img/instructor.lk-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/img/pattern-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/img/shopincy-theme-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/js/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/landingpage.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-duotone-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-duotone-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-duotone-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-duotone-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-duotone-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-light-300.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-light-300.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-light-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-light-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-light-300.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/landingpage/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/icon-chooser/css/fontawesome-iconpicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/icon-chooser/css/fontawesome-iconpicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/icon-chooser/js/fontawesome-iconpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/icon-chooser/js/fontawesome-iconpicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/config.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/slick-theme.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/slick-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/slick.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/public/assets/vendor/slick/slick.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/resources/views/landing/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/resources/views/landing/help.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/resources/views/landing/home.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/resources/views/landing/privacy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/resources/views/layouts/common1.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/resources/views/pages/contact.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/resources/views/pages/help.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/resources/views/pages/privacy.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/resources/views/teacher/settings/all.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/resources/views/teacher/settings/home-page.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lms/resources/views/teacher/settings/theme.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos_installment/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos_installment/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos_installment/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos_installment/application/application-2020-08-26.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos_installment/application/logs/log-2020-08-26.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pos_installment/application/views/reports/do_reports.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/.idea/instructor.lk.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/.idea/instructor.lk.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Helpers/general.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Helpers/general.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/CourseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/LessonsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/LessonsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/QuestionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/QuestionController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/QuestionPaperController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/QuestionPaperController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/TeacherController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/TeacherController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Admin/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/CheckoutController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/CheckoutController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/CourseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/FrontQuestionPaperController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/FrontQuestionPaperController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/LessonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/LessonController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/MainController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/MainController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/MenuManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/MenuManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/DashboardController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/DashboardController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/LessonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/LessonController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/ProfileController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/ProfileController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/TeacherExamController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/Teacher/TeacherExamController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/User/ExamController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Controllers/User/ExamController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Middleware/AccessManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Middleware/AccessManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Middleware/CommonMiddleware.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Middleware/CommonMiddleware.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Requests/CourseRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Requests/CourseRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Http/Requests/LessonTeacherRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Http/Requests/LessonTeacherRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Models/Course.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Models/Course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Models/Gallery.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Models/Gallery.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Models/Lesson.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Models/Lesson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Models/Question.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Models/Question.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Models/QuestionPaper.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Models/QuestionPaper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Models/UserExam.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Models/UserExam.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Models/UserLesson.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Models/UserLesson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/config/mail.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/config/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/config/my.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/config/my.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2014_10_12_000001_create_batches_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2014_10_12_000002_create_batches_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2014_10_12_000002_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2014_10_12_000003_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2014_10_12_100003_create_password_resets_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2014_10_12_100004_create_password_resets_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2019_08_19_000004_create_failed_jobs_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2019_08_19_000005_create_failed_jobs_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_05_13_195710_create_categories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_05_13_195710_create_categories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_05_19_221737_create_subcategories_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_05_19_221737_create_subcategories_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_05_31_202715_create_grades_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_05_31_202715_create_grades_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_05_31_202716_create_lessons_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_05_31_202716_create_lessons_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_06_16_183024_create_order_items_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_06_16_183024_create_order_items_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_06_30_025208_create_pages_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_06_30_025208_create_pages_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_06_30_184459_create_galleries_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_06_30_184459_create_galleries_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_07_02_182308_create_courses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_07_02_182308_create_courses_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_07_04_010331_create_questions_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_07_04_010331_create_questions_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_07_04_110416_create_question_papers_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/migrations/2020_07_04_110416_create_question_papers_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/seeds/AdminUserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/seeds/AdminUserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/database/seeds/UserRoleSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/database/seeds/UserRoleSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/lms.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/lms.zip" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/instructor.lk.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/public/assets/admin/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/admin/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/public/assets/admin/js/custom_functions.js" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/admin/js/custom_functions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/public/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/public/assets/css/night-mode.css" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/css/night-mode.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/public/assets/images/line.svg" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/public/assets/images/line.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/courses/lessons.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/courses/lessons.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/layouts/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/layouts/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/qpaper/questions.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/qpaper/questions.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/questions/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/questions/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/teachers/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/teachers/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/teachers/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/teachers/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/teachers/new.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/admin/teachers/new.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/checkout/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/checkout/checkout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/home/qpaper/mcq.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/home/qpaper/mcq.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/home/qpaper/writing.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/home/qpaper/writing.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/common.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/common.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/components/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/components/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/components/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/components/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/thankyou.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/layouts/thankyou.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/avatar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/profile/avatar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/courses/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/courses/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/courses/attachment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/lessons/attachment.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/courses/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/courses/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/courses/new.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/courses/new.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/dashboard.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/dashboard.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/exams/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/exams/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/exams/mcq-result.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/exam-results/mcq-result.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/exams/review.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/exams/writing-result.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/exam-results/writing-result.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/password.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/profile/password.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/profile.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/profile/profile.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/teacher/teacher_nav.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/resources/views/user/exams/mcq-result.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/resources/views/user/exams/mcq-result.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../instructor.lk/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/../instructor.lk/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/laravel-keditor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-keditor.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/EditorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/EditorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/plugins/editor-2.0.1/js/keditor-options.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/plugins/editor-2.0.1/js/keditor-options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/plugins/editor-2.0.1/snippets/snippets.blade.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/plugins/editor-2.0.1/snippets/snippets.blade.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/pages/new.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/pages/new.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/.env" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/app/Helpers/general.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/app/Helpers/general.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/app/Http/Controllers/Admin/CourseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/app/Http/Controllers/Admin/CourseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/app/Http/Controllers/Admin/GradesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/app/Http/Controllers/Admin/GradesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/app/Http/Controllers/Admin/LessonsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/app/Http/Controllers/Admin/LessonsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/app/Http/Controllers/Admin/TeacherController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/app/Http/Controllers/Admin/TeacherController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/app/Http/Controllers/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/app/Http/Controllers/LessonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/app/Http/Controllers/LessonController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/app/Http/Controllers/MenuManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/app/Http/Controllers/MenuManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/app/Http/Controllers/Teacher/LessonController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/app/Http/Controllers/Teacher/LessonController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/app/Http/Controllers/UploadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/app/Http/Controllers/UploadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/app/Models/Course.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/app/Models/Course.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/app/Models/Lesson.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/app/Models/Lesson.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/config/filesystems.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/config/filesystems.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/lms.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/public/assets/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/public/assets/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/public/assets/js/custom_functions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/public/assets/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/batches/batch.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/batches/batch.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/courses/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/courses/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/gallery/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/gallery/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/grades/grade.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/grades/grade.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/layouts/components/navbar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/layouts/components/navbar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/lessons/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/lessons/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/lessons/attachment.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/lessons/attachment.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/lessons/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/lessons/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/lessons/new.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/lessons/new.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/orders/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/orders/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/teachers/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/teachers/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/teachers/new.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/teachers/new.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/users/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/users/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/users/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/users/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/admin/users/new.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/admin/users/new.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/checkout/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/checkout/checkout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/home/gallery.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/pages/gallery.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/home/lessons/single.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/home/lessons/single.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/home/qpaper/all.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/home/qpaper/all.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/layouts/common.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/layouts/common.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/layouts/components/menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/layouts/components/menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/layouts/components/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/layouts/components/nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/teacher/teacher_nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/teacher/teacher_nav.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/user/avatar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/user/avatar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/resources/views/user/lessons.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/resources/views/user/lessons.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lms/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/../lms/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/controllers/Invoice.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/controllers/Invoice.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/controllers/Stock.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/controllers/Stock.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/controllers/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/controllers/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/controllers/reporter/Newsales.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/controllers/reporter/Newsales.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/controllers/reporter/Reports.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/controllers/reporter/Reports.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/controllers/reporter/Sales.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/controllers/reporter/Sales.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/libraries/REST_Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/libraries/REST_Controller.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/logs/log-2019-12-23.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/logs/log-2019-12-23.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/logs/log-2019-12-24.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/logs/log-2019-12-24.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/logs/log-2019-12-25.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/logs/log-2019-12-25.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/logs/log-2019-12-26.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/logs/log-2019-12-26.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/models/Damage_good_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/models/Damage_good_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/models/Invoice_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/models/Invoice_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/models/Payment_visit_model.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/models/Payment_visit_model.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/views/invoice/invoice_payment_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/views/invoice/invoice_payment_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/views/invoice/invoice_payment_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/views/invoice/invoice_payment_form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/views/reports/report-home.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/views/reports/report-home.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/views/reports/sales-report.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/views/reports/sales-report.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../pos_installment/application/views/stock/damaged_goods.php" beforeDir="false" afterPath="$PROJECT_DIR$/../pos_installment/application/views/stock/damaged_goods.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -29,11 +427,18 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../codeigniter-restserver" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/../instructor.lk/package.json" />
+    <dismissed value="$PROJECT_DIR$/package.json" />
+    <dismissed value="$PROJECT_DIR$/../lms/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -138,6 +543,9 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1dzwpyafRBBj4p7ZHjYK6k41S30" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -146,8 +554,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../codeigniter-restserver/application/libraries" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -155,13 +569,39 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\codeigniter-restserver\application\libraries" />
+      <recent name="C:\xampp\htdocs\chatbot\viber\admin\classes" />
+      <recent name="C:\xampp\htdocs\chatbot\viber\admin\templates\main" />
+      <recent name="C:\xampp\htdocs\chatbot\viber\admin\assets\admin" />
+      <recent name="C:\xampp\htdocs\chatbot\viber\admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\codeigniter-restserver\application\controllers" />
+      <recent name="C:\xampp\htdocs\codeigniter-restserver\application\controllers\api" />
+      <recent name="C:\xampp\htdocs\codeigniter-restserver\application\core" />
+      <recent name="C:\xampp\htdocs\chatbot\viber\admin\assets\admin\js\plugins" />
+      <recent name="C:\xampp\htdocs\chatbot\viber\admin\templates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHPUnit.main">
+    <configuration name="main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$/../chatbot/viber/admin/templates/main" />
+      <method v="2" />
+    </configuration>
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -172,6 +612,57 @@
       <option name="presentableId" value="Default" />
       <updated>1599631649218</updated>
       <workItem from="1599631650346" duration="6989000" />
+      <workItem from="1600421961875" duration="37342000" />
+      <workItem from="1600662888315" duration="746000" />
+      <workItem from="1600665926055" duration="77512000" />
+      <workItem from="1600862380705" duration="820000" />
+      <workItem from="1600920670614" duration="47000" />
+      <workItem from="1600926354789" duration="21416000" />
+      <workItem from="1601208440759" duration="1686000" />
+      <workItem from="1601264218149" duration="19025000" />
+      <workItem from="1601361725621" duration="1190000" />
+      <workItem from="1601407106777" duration="1178000" />
+      <workItem from="1601889859952" duration="1605000" />
+      <workItem from="1601987698003" duration="2481000" />
+      <workItem from="1602060757533" duration="4529000" />
+      <workItem from="1602137023958" duration="2060000" />
+      <workItem from="1602684057890" duration="6519000" />
+      <workItem from="1602921800154" duration="1301000" />
+      <workItem from="1602978088635" duration="4502000" />
+      <workItem from="1603042994106" duration="1142000" />
+      <workItem from="1603175288752" duration="1110000" />
+      <workItem from="1603340762428" duration="11542000" />
+      <workItem from="1603909007926" duration="21000" />
+      <workItem from="1604050660094" duration="696000" />
+      <workItem from="1605152595954" duration="21100000" />
+      <workItem from="1605297899551" duration="586000" />
+      <workItem from="1605953034632" duration="9258000" />
+      <workItem from="1606483386263" duration="863000" />
+      <workItem from="1606485099024" duration="16656000" />
+      <workItem from="1606589007963" duration="6729000" />
+      <workItem from="1606681383958" duration="293000" />
+      <workItem from="1606744069695" duration="13950000" />
+      <workItem from="1606829496850" duration="1647000" />
+      <workItem from="1606853258257" duration="20586000" />
+      <workItem from="1606923813721" duration="1873000" />
+      <workItem from="1606943214059" duration="17771000" />
+      <workItem from="1607005642000" duration="1350000" />
+      <workItem from="1607021049510" duration="4308000" />
+      <workItem from="1607046861928" duration="12544000" />
+      <workItem from="1607119213442" duration="31874000" />
+      <workItem from="1607231447436" duration="745000" />
+      <workItem from="1607342548463" duration="2563000" />
+      <workItem from="1607407903808" duration="7435000" />
+      <workItem from="1607492134926" duration="4624000" />
+      <workItem from="1607926903920" duration="155000" />
+      <workItem from="1607927089008" duration="12680000" />
+      <workItem from="1608019930626" duration="16000" />
+      <workItem from="1608028315003" duration="4000" />
+      <workItem from="1608042099580" duration="990000" />
+      <workItem from="1608412363324" duration="19595000" />
+      <workItem from="1608550621898" duration="919000" />
+      <workItem from="1608580986246" duration="8122000" />
+      <workItem from="1608748649595" duration="697000" />
     </task>
     <servers />
   </component>
@@ -179,13 +670,94 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="292" key="NewPhpFileDialog" timestamp="1599633671512">
+    <state x="296" y="55" key="#Deployment" timestamp="1607508052705">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1599633671512" />
-    <state x="293" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1599636151862">
+    <state x="296" y="55" key="#Deployment/0.0.1366.738/-1920.0.1920.1050@0.0.1366.738" timestamp="1607508052705" />
+    <state x="1678" y="93" key="#Deployment/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1606830049987" />
+    <state x="377" y="98" key="#Options" timestamp="1607507871557">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="293" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738@0.0.1366.738" timestamp="1599636151862" />
+    <state x="377" y="98" key="#Options/0.0.1366.738/-1920.0.1920.1050@0.0.1366.738" timestamp="1607507871557" />
+    <state x="1763" y="116" key="#Options/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1606830157019" />
+    <state x="259" y="14" key="#SSH_Configurations" timestamp="1607507544772">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="259" y="14" key="#SSH_Configurations/0.0.1366.738/-1920.0.1920.1050@0.0.1366.738" timestamp="1607507544772" />
+    <state x="1816" y="190" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1606917857121">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="1816" y="190" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1606917857121" />
+    <state x="1493" y="5" key="CommitChangelistDialog2" timestamp="1607066967294">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="227" y="0" key="CommitChangelistDialog2/0.0.1366.738/-1920.0.1920.1050@0.0.1366.738" timestamp="1603438425169" />
+    <state x="1493" y="5" key="CommitChangelistDialog2/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1607066967294" />
+    <state x="1458" y="92" width="1256" height="686" key="DiffContextDialog" timestamp="1606830537622">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="1458" y="92" width="1256" height="686" key="DiffContextDialog/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1606830537622" />
+    <state x="1458" y="92" width="1256" height="686" key="DirDiffDialog" timestamp="1607143292417">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="1458" y="92" width="1256" height="686" key="DirDiffDialog/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1607143292417" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1607507744355">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/-1920.0.1920.1050@0.0.1366.738" timestamp="1607507744355" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1601208520166" />
+    <state x="1854" y="146" key="FileChooserDialogImpl/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1606830491047" />
+    <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601289179387" />
+    <state x="438" y="92" key="NewPhpClassDialog" timestamp="1607931396103">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="438" y="92" key="NewPhpClassDialog/0.0.1366.738/-1920.0.1920.1050@0.0.1366.738" timestamp="1607931396103" />
+    <state x="1828" y="108" key="NewPhpClassDialog/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1606917788128" />
+    <state x="438" y="92" key="NewPhpClassDialog/0.0.1366.738@0.0.1366.738" timestamp="1600930670295" />
+    <state x="1911" y="344" key="NewPhpFileDialog" timestamp="1608586758261">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738/-1920.0.1920.1050@0.0.1366.738" timestamp="1607935462335" />
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738/1366.0.1440.870@0.0.1366.738" timestamp="1601311229990" />
+    <state x="1911" y="344" key="NewPhpFileDialog/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1608586758261" />
+    <state x="517" y="292" key="NewPhpFileDialog/0.0.1366.738@0.0.1366.738" timestamp="1600949832542" />
+    <state x="1587" y="80" key="SettingsEditor" timestamp="1606830537215">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="1587" y="80" key="SettingsEditor/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1606830537215" />
+    <state x="1458" y="92" width="1256" height="686" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608585936446">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="1458" y="92" width="1256" height="686" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1608585936446" />
+    <state x="1675" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1608589880266">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="293" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738/-1920.0.1920.1050@0.0.1366.738" timestamp="1603442812601" />
+    <state x="1675" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1608589880266" />
+    <state x="293" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738@0.0.1366.738" timestamp="1600672127336" />
+    <state x="500" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1600756636780">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="500" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1600756636780" />
+    <state x="1867" y="171" width="936" height="630" key="find.popup" timestamp="1607957355767">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="410" y="146" width="807" height="592" key="find.popup/0.0.1366.738/-1920.0.1920.1050@0.0.1366.738" timestamp="1607510654480" />
+    <state x="1867" y="171" width="936" height="630" key="find.popup/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1607957355767" />
+    <state x="390" y="102" width="806" height="534" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1600929149685" />
+    <state x="1971" y="165" key="ftp.server.browser" timestamp="1606830501044">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="1971" y="165" key="ftp.server.browser/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1606830501044" />
+    <state x="1723" y="195" key="run.anything.popup" timestamp="1606771191288">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="1723" y="195" key="run.anything.popup/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1606771191288" />
+    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1601289374565" />
+    <state x="1731" y="70" width="709" height="800" key="search.everywhere.popup" timestamp="1605963368468">
+      <screen x="1366" y="0" width="1440" height="870" />
+    </state>
+    <state x="1731" y="70" width="709" height="800" key="search.everywhere.popup/0.0.1366.738/1366.0.1440.870@1366.0.1440.870" timestamp="1605963368468" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1600768545795" />
   </component>
 </project>

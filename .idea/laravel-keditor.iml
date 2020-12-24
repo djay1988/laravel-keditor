@@ -108,5 +108,14 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="payhere-demo-beta" />
+    <orderEntry type="module" module-name="instructor.lk" />
+    <orderEntry type="module" module-name="lms" />
+    <orderEntry type="module" module-name="pos_installment" />
+    <orderEntry type="module" module-name="img_comp" />
+    <orderEntry type="module" module-name="wordpress" />
+    <orderEntry type="module" module-name="chatbot" />
+    <orderEntry type="module" module-name="codeigniter-restserver" />
+    <orderEntry type="module" module-name="codeigniter-restserver" />
   </component>
 </module>
